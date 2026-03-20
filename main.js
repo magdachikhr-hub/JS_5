@@ -104,3 +104,19 @@ let myText = "JavaScript is awesome";
 let includesAwsome = myText.includes("awesome");
 console.log(includesAwsome);
 //დალოგეთ ახალშექმნილი ცვლადი
+
+let country = "Georgia";
+console.log(`hi i am from ${country}, my country is very beautiful`);
+
+let user = `magda`;
+let age = 20;
+
+console.log(`hi ${user}, you are ${20} years old`);
+
+//split method
+
+let someText = `my name is magda`;
+console.log(someText.split(` `));
+
+let array = someText.split(` `);
+console.log(array);
