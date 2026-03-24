@@ -38,3 +38,14 @@ console.log(30 % 11);
 //
 let compare = 30 === 20;
 console.log(compare);
+
+// + - string
+// - / * - number
+
+let example = 20 + "2";
+let exampleTwo = 20 - "2";
+console.log(example);
+console.log(exampleTwo);
+
+console.log(typeof (200 / "2"));
+console.log("200" - "2");
