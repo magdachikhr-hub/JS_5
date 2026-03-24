@@ -88,9 +88,7 @@ if (myAge3 >= 18 && myAge3 < 120) {
 //&& - მის გვერდებზე მდგომი ორივე პირობა უნდა შესრულდეს რომ ჭეშმარიტი გამოვიდეს (ლოგიკური და)
 console.log(2 === 2 && 3 > 0);
 
-//
-
-let score = 100;
+//mine
 
 // if (score > 90 && score <= 100) {
 //   console.log("A");
@@ -110,23 +108,29 @@ let score = 100;
 //   console.log("FX");
 // }
 
-if (score <= 100 && score >= 90) {
-  console.log("A");
-} else if (score >= 80 && score < 90) {
-  console.log("B");
-} else if (score >= 70 && score < 80) {
-  console.log("C");
-} else if (score >= 60 && score < 70) {
-  console.log("D");
-} else if (score >= 50 && score < 60) {
-  console.log("F");
-} else if (score >= 0 && score < 40) {
-  console.log("FX");
-} else {
-  console.log("INCORRECT NUMBER");
-}
+//third option
 
-if (score > 100 && score < 0) {
+// if (score <= 100 && score >= 90) {
+//   console.log("A");
+// } else if (score >= 80 && score < 90) {
+//   console.log("B");
+// } else if (score >= 70 && score < 80) {
+//   console.log("C");
+// } else if (score >= 60 && score < 70) {
+//   console.log("D");
+// } else if (score >= 50 && score < 60) {
+//   console.log("F");
+// } else if (score >= 0 && score < 40) {
+//   console.log("FX");
+// } else {
+//   console.log("INCORRECT NUMBER");
+// }
+
+let score = 102;
+
+if (score > 100) {
+  console.log("INCORRECT NUMBER");
+} else if (score < 0) {
   console.log("INCORRECT NUMBER");
 } else if (score >= 90) {
   console.log("A");
