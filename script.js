@@ -145,3 +145,20 @@ if (score > 100) {
 } else {
   console.log("FX");
 }
+
+let num = 120;
+
+if (num % 2 === 0) {
+  console.log("LUWIA");
+} else {
+  console.log("KENTIA");
+}
+
+int = 100;
+if (int > 0) {
+  console.log("dadebiti");
+} else if (int < 0) {
+  console.log("uaryopiti");
+} else {
+  console.log("nulia");
+}
